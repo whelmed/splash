@@ -1,6 +1,7 @@
 # SWG/SCG Community License (SCL)
 
 **Version 1.0 — September 2025**
+
 Copyright © 2025 Ben Lambert
 
 ---
