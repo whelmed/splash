@@ -14,7 +14,6 @@ dependencies = [
     "matplotlib >= 3.10",
     "jupyterlab>=4.4.7",
     "torch>=2.8",
-    "scion @ file:///Users/whelmed/Projects/public/swg",
     "transformers",
     "pandas",
     "scikit-learn",
