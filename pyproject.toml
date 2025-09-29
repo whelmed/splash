@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "splash"
+version = "0.0.3"
+description = "Splash - A coherence-based LLM evaluation toolkit."
+requires-python = ">=3.10"
+authors = [{name = "Ben Lambert"}]
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.10",
+    "matplotlib >= 3.10",
+    "jupyterlab>=4.4.7",
+    "torch>=2.8",
+    "scion @ file:///Users/whelmed/Projects/public/swg",
+    "transformers",
+    "pandas",
+    "scikit-learn",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "pytest-cov>=4.1"]
+
+[tool.setuptools]
+packages = { find = { where = ["."], include = ["splash", "splash.*"] } }
+include-package-data = true
